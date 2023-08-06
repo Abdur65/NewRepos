@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-01</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="task01">
+      <h1>Task 1: Fancy Buttons</h1>
+      <div class="flexbox">
+        <div class="buttons">
+          <button class="butn1">
+            <a href="">LOG IN</a>
+            <i class="material-icons">login</i>
+          </button>
+          <button class="butn2">
+            <a href="">ADD TO CART</a>
+            <i class="material-icons">shopping_cart_checkout</i>
+          </button>
+          <button class="butn3">
+            <a href="">DOWNLOAD</a>
+            <i class="material-icons">download</i>
+          </button>
+          <button class="butn4">
+            <a href="">COMMENT</a>
+            <i class="material-icons">comment</i>
+          </button>
+        </div>
+      </div>
+      <div class="flexbox2">
+        <ul class="fancy2">
+          <li class="link1">
+            <a href="">Log in</a>
+            <i class="material-icons">person</i>
+          </li>
+          <li class="link2">
+            <a href="">Add to cart</a>
+            <i class="material-icons">shopping_cart</i>
+          </li>
+          <li class="link3">
+            <a href="">Download</a>
+            <i class="material-icons">arrow_downward</i>
+          </li>
+          <li class="link4">
+            <a href="">Comment</a>
+            <i class="material-icons">sms</i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="task02">
+      <h1>Task 2: Card Groups</h1>
+      <section class="card-container">
+        <div class="card">
+          <img id="watch1" src="./Images/watch10.png" alt="" />
+          <h3>Hugo Boss</h3>
+          <p>
+            This timepiece is designed with a timeless aesthetic that can be
+            worn with any formal outfit. The stainless steel case and blue
+            leather strap complete the look for a sophisticated finish.
+          </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <h3>$1500</h3>
+          <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+          <img id="watch2" src="./Images/watch20.png" alt="" />
+          <h3>Casio</h3>
+          <p>
+            This Casio Stainless-Steel Men's Watch offers reliable timekeeping
+            with its accurate quartz movement, built into a durable
+            stainless-steel case.
+          </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <h3>$600</h3>
+          <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+          <img id="watch3" src="./Images/watch30.png" alt="" />
+          <h3>Tommy Hilfiger</h3>
+          <p>
+            Tommy Hilfiger Grey Stainless Steel Men's Watch TH1791397 Add a dash
+            of cheerfulness to your personality with this Kane collection by
+            Tommy Hilfiger.
+          </p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <h3>$800</h3>
+          <button>ADD TO CART</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="task03">
+      <h1>Task 3: Simple Form</h1>
+      <div class="registerbox">
+        <form class="login-form">
+          <div class="container">
+            <img src="./Images/logopic3.png" alt="" />
+            <div class="inputfld">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                required
+                placeholder="Username"
+              /><br />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                placeholder="Password"
+              />
+            </div>
+            <button>Login</button>
+            <div class="signup">
+              Not registered? <a href="">Create an account</a>
+            </div>
+          </div>
+        </form>
+        <form class="login-form">
+          <div class="container2">
+            <label for="">Name</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Name"
+            /><br />
+            <label for="">Username</label><br />
+            <input
+              type="text"
+              name="username"
+              id="username2"
+              required
+              placeholder="Username"
+            /><br />
+            <label for="">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            /><br />
+            <label for="">Password</label><br />
+            <input
+              type="password"
+              name="password"
+              id="password2"
+              required
+              placeholder="Password"
+            /><br />
+            <label for="">Confirm Password</label><br />
+            <input
+              type="password"
+              name="password"
+              id="cpassword"
+              required
+              placeholder="Confirm"
+            /><br />
+            <label for="">Message</label><br />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="2"
+              placeholder="Message"
+            ></textarea>
+            <button>Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="task04">
+      <h1>Task 4: Simple Calendar</h1>
+      <div class="gogo">
+        <div class="calendar">
+          <div class="year">
+            <h2>November 2017</h2>
+          </div>
+          <div class="days">
+            <div class="weekdays">S</div>
+            <div class="weekdays">M</div>
+            <div class="weekdays">T</div>
+            <div class="weekdays">W</div>
+            <div class="weekdays">T</div>
+            <div class="weekdays">F</div>
+            <div class="weekdays">S</div>
+          </div>
+          <div class="dates">
+            <div class="bdate">29</div>
+            <div class="bdate">30</div>
+            <div class="bdate">31</div>
+            <div class="date">1</div>
+            <div class="date">2</div>
+            <div class="date">3</div>
+            <div class="date">4</div>
+            <div class="date">5</div>
+            <div class="date">6</div>
+            <div class="date">7</div>
+            <div class="date">8</div>
+            <div class="date">9</div>
+            <div class="date">10</div>
+            <div class="date">11</div>
+            <div class="date">12</div>
+            <div class="date">13</div>
+            <div class="date">14</div>
+            <div class="date">15</div>
+            <div class="date">16</div>
+            <div class="date">17</div>
+            <div class="date">18</div>
+            <div class="date">19</div>
+            <div class="date">20</div>
+            <div class="date">21</div>
+            <div class="date">22</div>
+            <div class="date">23</div>
+            <div class="date">24</div>
+            <div class="date">25</div>
+            <div class="date">26</div>
+            <div class="date">27</div>
+            <div class="date">28</div>
+            <div class="date">29</div>
+            <div class="date">30</div>
+            <div class="bdate">1</div>
+            <div class="bdate">2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="task05">
+      <h1>Task 5: Simple Flexbox</h1>
+      <div class="flex-container">
+        <div class="flex-sub-container1">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="flex-sub-container2">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="task06">
+      <h1>Task 6: Simple Banner Section</h1>
+      <div class="bannersec">
+        <div class="bannerbg">
+          <div class="banner">
+            <div class="txt">
+              <blockquote
+                cite="https://www.brainyquote.com/quotes/nikola_tesla_596907?src=t_ideas"
+              >
+                <i
+                  >"The scientific man does not aim at an immediate result. He
+                  does not expect that his advanced ideas will be readily taken
+                  up. His work is like that of the planter - for the future. His
+                  duty is to lay the foundation for those who are to come, and
+                  point the way."</i
+                ><br />
+                - <strong>Nikola Tesla</strong>
+              </blockquote>
+            </div>
+            <div class="img-illus">
+              <img src="./Images/undraw_lightbulb_moment_re_ulyo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="task07">
+      <h1>Task 7: Simple Footer Section</h1>
+      <footer>
+        <div class="footersec">
+          <div class="foot1">
+            <h3>ABOUT</h3>
+            <p>
+              freeCodeCamp is an initiative to help the upcoming programmers
+              with the code. Our mission is to help people learn to code for
+              free. We accomplish this by creating thousands of videos,
+              articles, and interactive coding lessons. We will help programmers
+              build up different concepts in programming that include C, C++,
+              Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and DSA.
+            </p>
+          </div>
+          <div class="foot">
+            <h3>CATEGORIES</h3>
+            <ul>
+              <li><a href="">C</a></li>
+              <li><a href="">C++</a></li>
+              <li><a href="">Java</a></li>
+              <li><a href="">Python</a></li>
+              <li><a href="">JavaScript</a></li>
+              <li><a href="">PHP</a></li>
+            </ul>
+          </div>
+          <div class="foot">
+            <h3>QUICKLINKS</h3>
+            <ul>
+              <li><a href="">Progress</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Contribute</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr style="color: black" />
+        <div class="copyright">
+          <p>Copyright &#169; 2023. All rights reserved by freeCodeCamp.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
