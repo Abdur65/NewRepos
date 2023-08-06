@@ -1,18 +1,18 @@
 .myid{
-    color: rgb(125, 26, 218);
-    background-color: rgb(205, 203, 214);
-    display: inline;
-    margin-left: 420px;
-    padding: 10px;
+    color: rgb(32, 218, 26);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 5px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 h1{
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: rgb(24, 245, 245);
     border-radius: 20px;
 }
